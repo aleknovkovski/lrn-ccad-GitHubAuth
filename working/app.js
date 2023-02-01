@@ -54,7 +54,7 @@ app.use(session({
       saveUnitialized: false
     })
 )
-
+app.use(passport.initialize());
 
 /*
  * Routes
